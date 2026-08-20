@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Click to go to</h2>
+
+<p id="demo"></p>
+
+<script>
+let day;
+let params = new URL(document.location).searchParams;
+let FACILITY = params.get("site");
+switch (FACILITY) {
+  case  "ald0240":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540239.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "bar0785":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540784.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "bea0797":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.40796.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "bow0131":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540130.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "bre0287":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540286.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "bri0199":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540198.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "bri0685":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540684.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "bri0875":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.40874.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "car0129":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540128.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "con0274":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540273.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "coo0792":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.40791.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "cor0072":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540071.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "cor0703":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540702.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "cor0704":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540703.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "dur0790":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.40789.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "eas0133":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540132.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "eil0110":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540109.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "ele0005":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.140004.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "eno0120":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540119.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "eno0605":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540604.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "gol0108":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540107.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "gol0610":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540609.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "goo0671":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540670.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "haw0686":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540685.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "hem0130":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540129.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "hol0135":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540134.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "ith0117":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540116.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "ith0501":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540500.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "jin0683":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540682.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "jin0714":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.40713.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "jin0193":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540192.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "kel0119":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540118.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "kho0257":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540256.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "lak0029":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540028.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "lak0607":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540606.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "lak0536":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540535.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "man0127":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540126.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mar0433":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540432.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mis0062":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540061.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mog0202":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540201.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mog0813":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.40812.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mog0201":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540200.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mog0820":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.40819.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mtc0143":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.40142.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mtc0200":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540199.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mtc0819":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.40818.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mtg0109":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540108.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mur0434":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540433.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "oxl0275":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540274.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "pul0296":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540296.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "ran0280":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540279.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "stl0684":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540683.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "the0101":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540100.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "upp0814":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.40813.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "wak0478":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540477.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "why0496":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540495.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "wis0128":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540127.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "wol0379":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540378.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "wyn0279":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540278.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "les0385":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540384.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "les0612":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540611.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "asp0113":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540113.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "can0469":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540468.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "dea0125":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540124.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "eve0637":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540636.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "fra0432":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540431.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "gee0121":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540120.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "hen0470":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540469.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mcc0479":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540478.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "mit0112":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540111.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "str0626":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540625.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "too0549":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540548.plt.shtml>Latest River Heights</a>";
+    break;
+  case  "zil0123":
+    day = "<a href=https://www.bom.gov.au/fwo/IDQ65389/IDQ65389.540122.plt.shtml>Latest River Heights</a>";
+}
+document.getElementById("demo").innerHTML = day;
+</script>
+
+</body>
+</html>
